@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChallengePrepFX - Practice Prop Firm Challenges</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+    body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+    header { text-align: center; padding: 4rem 1rem 2rem; }
+    header h1 { font-size: 2.5rem; font-weight: 800; }
+    header p { margin-top: 1rem; font-size: 1.1rem; color: #94a3b8; }
+    .btn { background: #2563eb; color: white; border: none; padding: 1rem 2rem; border-radius: 8px; font-size: 1rem; cursor: pointer; margin-top: 1.5rem; }
+    section { padding: 3rem 1rem; }
+    .features, .faq { display: grid; gap: 2rem; }
+    .features h3, .faq h3 { font-size: 1.5rem; font-weight: 600; }
+    .features p, .faq p { color: #cbd5e1; }
+    form { margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+    input[type="email"] { flex: 1; padding: 0.8rem; border-radius: 6px; border: none; font-size: 1rem; }
+    footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #64748b; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      .btn, form button { width: 100%; }
+      form { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ChallengePrepFX</h1>
+      <p>Train with real prop firm rules — before spending a dime.</p>
+    </header>
+
+    <section>
+      <h2>Why ChallengePrepFX?</h2>
+      <div class="features">
+        <div>
+          <h3>Realistic Simulations</h3>
+          <p>Choose FTMO, MyForexFunds, 5%ers, or create custom rules to mimic the real deal.</p>
+        </div>
+        <div>
+          <h3>Avoid Costly Mistakes</h3>
+          <p>Practice without pressure. Know where you breach rules before risking money.</p>
+        </div>
+        <div>
+          <h3>Performance Feedback</h3>
+          <p>Track violations, equity curves, and performance stats automatically.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Get Early Access</h2>
+      <p>We're building the ultimate prep ground for prop firm traders. Be the first to know when we launch.</p>
+      <form action="https://formspree.io/f/xkndzqlg" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn">Notify Me</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>FAQs</h2>
+      <div class="faq">
+        <div>
+          <h3>Is this free?</h3>
+          <p>Yes, during the beta phase it will be 100% free to use and test.</p>
+        </div>
+        <div>
+          <h3>Does this connect to real markets?</h3>
+          <p>Yes. You'll be able to link demo accounts or use our built-in paper trading engine.</p>
+        </div>
+        <div>
+          <h3>What platforms are supported?</h3>
+          <p>MT5 demo accounts or browser-based trading (coming soon).</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2025 ChallengePrepFX. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
